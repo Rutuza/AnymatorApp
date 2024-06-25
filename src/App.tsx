@@ -1,10 +1,11 @@
 import './App.css';
+import { Heartbeat } from './assets/components/Heartbeat';
 // import FloatingClouds from './assets/components/FloatingClouds';
 
 // import Blink from './assets/components/Blink';
 // import Tim from './assets/components/Tim';
 // import Typewriter from './assets/components/Typewriter';
-import { Rotate } from './assets/components/Rotate';
+// import { Rotate } from './assets/components/Rotate';
 // import Bounce from './assets/components/Bounce';
 // import FadeIn from './assets/components/FadeIn';
 // import Pulse from './assets/components/Pulse';
@@ -20,7 +21,7 @@ function App() {
       {/* <Tim /> */}
       {/* <Typewriter /> */}
       {/* <Bounce /> */}
-      <Rotate />
+      {/* <Rotate /> */}
       {/* <FadeIn /> */}
       {/* <Pulse /> */}
       {/* <Wiggle /> */}
@@ -29,6 +30,7 @@ function App() {
       {/* <WavingHand /> */}
       {/* <FloatingClouds /> */}
       {/* <Blink/> */}
+      <Heartbeat />
     </div>
     </>
   )
