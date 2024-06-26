@@ -1,6 +1,6 @@
 import React from 'react';
 
-const haertbeatkeyframes = `
+const heartbeatkeyframes = `
 @keyframes heartbeat{
     0% {
         transform: scale(1);
@@ -31,7 +31,7 @@ const myStyle: React.CSSProperties = {
 function Heartbeat() {
   return (
     <>
-      <style>{haertbeatkeyframes}</style>
+      <style>{heartbeatkeyframes}</style>
       <div style={myStyle}>Heartbeat animation</div>
     </>
   );

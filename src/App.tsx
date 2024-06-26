@@ -1,5 +1,7 @@
 import './App.css';
-import { Heartbeat } from './assets/components/Heartbeat';
+import { Shrink } from './assets/components/Shrink';
+
+// import { Heartbeat } from './assets/components/Heartbeat';
 // import FloatingClouds from './assets/components/FloatingClouds';
 
 // import Blink from './assets/components/Blink';
@@ -14,6 +16,7 @@ import { Heartbeat } from './assets/components/Heartbeat';
 // import Blob from './assets/components/Blob';
 // import WavingHand from './assets/components/WavingHand';
 // import {Blink} from "./assets/components/Blink";
+
 function App() {
   return (
     <>
@@ -30,7 +33,8 @@ function App() {
       {/* <WavingHand /> */}
       {/* <FloatingClouds /> */}
       {/* <Blink/> */}
-      <Heartbeat />
+      {/* <Heartbeat /> */}
+      <Shrink />
     </div>
     </>
   )
