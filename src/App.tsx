@@ -1,10 +1,11 @@
 import './App.css';
-import { ButtonHover } from './assets/components/ButtonHover';
+
+import { Fadein } from './assets/components/Fadein';
 
 function App() {
   return (
     <>
-      <ButtonHover />
+      <Fadein />
     </>
   )
 }
