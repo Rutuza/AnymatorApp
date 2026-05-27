@@ -1,9 +1,11 @@
 import './App.css';
-import { Flip } from './assets/components/Flip';
+// import { Flip } from './assets/components/Flip';
+import { Bounce } from './assets/components/Bounce';
+
 function App() {
   return (
     <>
-      <Flip />
+      <Bounce />
     </>
   )
 }
