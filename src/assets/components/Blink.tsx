@@ -9,13 +9,15 @@ const blinkKeyframes = `
 
 const myStyle: React.CSSProperties = {
  animation: "blink 1s infinite",
+ fontSize: "2rem",
+ 
 };
 
 function Blink() {
   return (
     <>
       <style>{blinkKeyframes}</style>
-      <div style={myStyle}>Blink animation</div>
+      <div style={myStyle}>hello world. I am Blink animation</div>
     </>
   );
 }

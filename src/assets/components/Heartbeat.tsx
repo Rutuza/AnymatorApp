@@ -1,40 +1,52 @@
 import React from 'react';
 
-const heartbeatkeyframes = `
-@keyframes heartbeat{
-    0% {
-        transform: scale(1);
-    }
-    14% {
-        transform: scale(1.3);
-    }
-    28% {
-        transform: scale(1);
-    }
-    42% {
-        transform: scale(1.3);
-    }
-    70% {
-        transform: scale(1);
-    }
+const heartbeatAnimation = `
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+
+  25% {
+    transform: scale(1.2);
+  }
+
+  40% {
+    transform: scale(1);
+  }
+
+  60% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 `;
 
-const myStyle: React.CSSProperties = {
-    animation: "heartbeat 1.5s infinite",
-    textAlign: "center",
-    overflowX: "hidden",
-    
-};
+const heartStyle: React.CSSProperties = {
+  animation: "heartbeat 1.5s infinite",
+  fontSize: "3rem",
 
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+
+  height: "100vh",
+
+  color: "red",
+};
 
 function Heartbeat() {
   return (
     <>
-      <style>{heartbeatkeyframes}</style>
-      <div style={myStyle}>Heartbeat animation</div>
+      <style>{heartbeatAnimation}</style>
+
+      <div style={heartStyle}>
+         My Heart Beats For Code ❤️
+      </div>
     </>
   );
 }
 
-export { Heartbeat } ;
+export { Heartbeat };

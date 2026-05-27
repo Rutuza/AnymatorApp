@@ -1,11 +1,9 @@
 import './App.css';
-
-import { Fadein } from './assets/components/Fadein';
-
+import { Flip } from './assets/components/Flip';
 function App() {
   return (
     <>
-      <Fadein />
+      <Flip />
     </>
   )
 }

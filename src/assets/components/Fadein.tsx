@@ -15,7 +15,7 @@ function Fadein() {
   return (
     <>
       <style>{fadeinkeyframes}</style>
-      <div style={myStyle}>TS: Are you ready Mr. Styles ?</div>
+      <div style={myStyle}>hello, I am fade in animation</div>
     </>
   );
 }
