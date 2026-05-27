@@ -1,11 +1,11 @@
 import './App.css';
-// import { Flip } from './assets/components/Flip';
-import { Bounce } from './assets/components/Bounce';
+
+import { Upload } from './assets/components/Upload';
 
 function App() {
   return (
     <>
-      <Bounce />
+      <Upload/>
     </>
   )
 }
